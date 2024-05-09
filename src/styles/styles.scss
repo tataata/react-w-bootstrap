@@ -1,0 +1,15 @@
+// Default variable overrides
+$body-color: #fff;
+$body-bg: #212529;
+$primary: #7952b3;
+
+$body-emphasis-color: #adb5bd;
+
+// Import all styles from Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
