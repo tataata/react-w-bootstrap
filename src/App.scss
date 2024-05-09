@@ -1,0 +1,30 @@
+@import "custom.scss";
+
+.header {
+  text-align: center;
+}
+
+.alert {
+  margin: 2rem 0;
+}
+
+button {
+  &.btn {
+    display: block;
+    margin: 2rem auto;
+  }
+}
+
+
+span {
+  font-weight: bold;
+
+  &.dangerText {
+    color: tomato;
+  }
+
+  &.infoText {
+    color: blueviolet;
+    
+  }
+}
